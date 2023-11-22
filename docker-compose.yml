@@ -5,8 +5,6 @@ services:
     build:
       context: ./src
     container_name: db
-    ports:
-      - 5431:5432
     env_file:
       - .env
     volumes:
